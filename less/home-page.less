@@ -5,7 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    
+    
    
     
     .text-content {
@@ -58,4 +59,30 @@
       margin-bottom: 30px;
     }
   }
+
+  .btn {
+    border: solid lightgray;
+    font-size: 15px;
+    padding-left: 50px;
+    width: 200px;
+    height: 35px;
+    padding-top: 7px;
+    background-color: teal;
+    color: white;
+  }
+
+  @media (max-width: 500px) {
+
+    .content-section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content-section inverse-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
 }// home

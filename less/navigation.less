@@ -1,1 +1,83 @@
 // Navigation Styles here
+
+// PC
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 15px;
+    
+    
+    .navItem {
+       color: black; 
+       text-decoration: none;
+       margin-top: 15px;
+    }
+
+    
+}
+
+
+
+.funBusImg {
+    margin: 0 auto;
+    border-top: 2px dashed @navigation-border;
+    width: 850px;
+    padding: 30px;
+  }
+
+  .welcome {
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+    border-bottom: 2px dashed @navigation-border;
+    flex-direction: column;
+  }
+
+  
+//mobile  
+  
+  @media (max-width: 500px) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 15px;
+        
+        
+        .navItem {
+           color: black; 
+           text-decoration: none;
+           margin-top: 15px;
+           flex-direction: row;
+           display: flex;
+        }
+    
+        
+    }
+    
+    
+    
+    .funBusImg {
+        margin: 0 auto;
+        border-top: 2px dashed @navigation-border;
+        width: 300px;
+        padding: 30px;
+        border: solid red;
+      }
+    
+      .welcome {
+        display: flex;
+        margin: 0 auto;
+        width: 800px;
+        border-bottom: 2px dashed @navigation-border;
+        flex-direction: column;
+      }
+ }
